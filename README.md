@@ -37,6 +37,12 @@ https://public.tableau.com/views/Brecha_genero_HRST_Europa_Marina-Ruth/Brechadeg
 **Ruth Pérez Segovia**
 
 ---
+## Contribución
+
+- Proyecto desarrollado en colaboración (repo original creado por Marina Martín Díaz).
+- Mi aportación: diseño y publicación del dashboard en Tableau Public, preparación/modelado de datos para visualización y documentación final (README).
+
+---
 
 ## Qué preguntas responde el dashboard
 1) **Evolución temporal:** ¿Cómo evoluciona el empleo HRST por sexo a lo largo del tiempo?  
