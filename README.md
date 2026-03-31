@@ -1,194 +1,102 @@
 <p align="center">
-  <img src="assets/chunga-malaje-consulting.png" width="420">
+  <img src="assets/chunga-malaje-consulting.png" width="420" alt="Logo proyecto">
 </p>
 
-# Brecha de género en empleo HRST en Europa
+# Brecha de género en empleo HRST en Europa (Eurostat + Tableau)
 
-![Tableau](https://img.shields.io/badge/Tableau-Data%20Visualization-blue)
-![Eurostat](https://img.shields.io/badge/Data-Eurostat-orange)
-![EDA](https://img.shields.io/badge/Analysis-EDA-purple)
-![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-blueviolet)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue)
+![Eurostat](https://img.shields.io/badge/Datos-Eurostat-orange)
+![Social%20Impact](https://img.shields.io/badge/Enfoque-Impacto%20Social-6f42c1)
+![Gender%20Gap](https://img.shields.io/badge/Tema-Brecha%20de%20G%C3%A9nero-ff69b4)
 
-**Pregunta**: ¿Cómo varía la brecha de género en empleo HRST entre países y a lo largo del tiempo en Europa?
+## Resumen ejecutivo (para qué sirve)
+**Pregunta:** ¿Cómo varía la brecha de género en empleo HRST (Human Resources in Science and Technology) entre países y a lo largo del tiempo en Europa?
 
-**Objetivo**: visualizar patrones territoriales y temporales para priorizar intervenciones y políticas de impulso STEM/HRST.
+**Objetivo:** identificar patrones territoriales, temporales y demográficos para **priorizar intervenciones** (políticas públicas, programas STEM/HRST, iniciativas de empleabilidad) basadas en evidencia.
 
-**Datos**: Eurostat (indicadores HRST) + preparación y análisis para visualización.
+**Datos:** Eurostat (indicadores HRST) + preparación y modelado para visualización.
 
-**Entregable**: dashboard interactivo en Tableau Public.
+**Entregable:** dashboard interactivo en Tableau Public.
 
-**Uso**: comparar países, detectar tendencias y apoyar decisiones basadas en evidencia.
-
-**Ver dashboard** (Tableau Public):
+**Ver dashboard (Tableau Public):**  
 https://public.tableau.com/views/Brecha_genero_HRST_Europa_Marina-Ruth/BrechadegneroenempleoHRSTenEuropa
 
-## Autoras  
-*por la igualdad de género y el cierre de la brecha digital*
+---
 
-<p align="center">
+## Acceso rápido
+- **Dashboard:** https://public.tableau.com/views/Brecha_genero_HRST_Europa_Marina-Ruth/BrechadegneroenempleoHRSTenEuropa
+- **Preview:** ver imagen más abajo
+- **Datos:** Eurostat (datasets listados en “Fuentes de datos”)
 
+---
+
+## Autoras
 **Marina Martín Díaz**  
-✦  
-
 **Ruth Pérez Segovia**
 
-</p>
 ---
 
-# Objetivo del análisis
-
-El objetivo de este proyecto es analizar la **brecha de género en el empleo HRST (Human Resources in Science and Technology)** en Europa y explorar cómo se distribuye en función de:
-
-- el **sexo**
-- la **evolución temporal**
-- el **país**
-- la **edad**
-
-El análisis se materializa en un **dashboard interactivo** que permite explorar diferencias territoriales, tendencias temporales y patrones demográficos en el empleo científico-tecnológico.
+## Qué preguntas responde el dashboard
+1) **Evolución temporal:** ¿Cómo evoluciona el empleo HRST por sexo a lo largo del tiempo?  
+2) **Comparativa territorial:** ¿Qué países presentan mayor o menor brecha de género relativa?  
+3) **Dimensión demográfica:** ¿Cómo se distribuye el desempleo HRST por grupos de edad?
 
 ---
 
-# Preguntas analíticas
-
-El dashboard está diseñado para responder tres preguntas principales:
-
-**1️⃣ ¿Cómo evoluciona el empleo HRST por sexo a lo largo del tiempo?**
-
-**2️⃣ ¿Qué países presentan mayor o menor brecha de género relativa?**
-
-**3️⃣ ¿Cómo se distribuye el desempleo HRST según grupo de edad?**
-
----
-
-# Dashboard preview
-
-El dashboard interactivo integra análisis temporal, territorial y demográfico de la brecha de género en empleo HRST.
-
+## Dashboard preview
 <p align="center">
-  <img src="assets/dashboard-preview.png" width="900">
+  <img src="assets/dashboard-preview.png" width="900" alt="Dashboard preview">
 </p>
 
 ---
 
-# Key Insights
-
-### Participación femenina cercana al equilibrio
-
-El porcentaje medio de mujeres en empleo HRST se sitúa aproximadamente en torno al **50 %**, lo que indica un nivel de participación cercano al equilibrio global entre hombres y mujeres.
-
-Sin embargo, este equilibrio agregado oculta **importantes diferencias entre países**.
-
----
-
-### Desigualdad territorial significativa
-
-El análisis geográfico muestra que la brecha de género **no se distribuye de forma homogénea en Europa**.
-
-Algunos países presentan niveles de participación femenina relativamente altos, mientras que otros muestran **brechas negativas persistentes**, lo que sugiere diferencias estructurales en políticas educativas, mercado laboral o cultura tecnológica.
-
----
-
-### Persistencia de la brecha relativa
-
-Aunque la participación femenina ha mejorado en términos absolutos, el análisis comparativo indica que **la brecha relativa sigue presente en muchos contextos**, especialmente en determinados sistemas productivos.
-
-Esto sugiere que el crecimiento del empleo HRST no necesariamente implica una reducción automática de la desigualdad.
-
----
-
-### Diferencias demográficas en el desempleo HRST
-
-El análisis por grupos de edad muestra que el desempleo en el sector no afecta de forma uniforme a todos los perfiles demográficos.
-
-Esto sugiere que las dinámicas de entrada y permanencia en el sector tecnológico pueden estar influidas por factores como experiencia laboral, formación o ciclos de carrera.
-
----
-
-# KPIs incluidos
-
-El panel superior del dashboard resume la situación mediante tres indicadores clave:
-
+## KPIs incluidos
+El panel superior resume la situación con:
 - **% medio de mujeres en empleo HRST**
 - **Brecha media relativa**
 - **Número de países con datos disponibles**
 
-Estos indicadores proporcionan una visión rápida del estado general antes de explorar las visualizaciones en detalle.
+---
+
+## Key insights (orientados a decisión)
+> Nota: los siguientes insights se expresan en términos cualitativos para no “forzar” cifras fuera del dashboard. Puedes completarlos con 1–2 ejemplos concretos por país si quieres reforzar la narrativa.
+
+- **Equilibrio agregado ≈ 50%**, pero con **variabilidad significativa por país** → priorizar acciones por contexto nacional/territorial.  
+- **Desigualdad territorial persistente** → apunta a factores estructurales (políticas educativas, mercado laboral, cultura tecnológica) → útil para identificar “casos referencia” y “zonas prioritarias”.  
+- **La mejora absoluta no implica cierre automático de brecha** → el crecimiento HRST no garantiza equidad → necesidad de medidas específicas de atracción, retención y progresión.  
+- **Diferencias por edad en desempleo HRST** → posible “punto de fuga” por etapa de carrera → diseñar acciones segmentadas (entrada, consolidación, seniority).
 
 ---
 
-# Visualizaciones del dashboard
-
-### Evolución del empleo HRST por sexo
-
-Gráfico de líneas que muestra la evolución temporal de la presencia de mujeres y hombres en el empleo HRST.
-
-Permite identificar tendencias y posibles convergencias o divergencias entre ambos grupos.
-
----
-
-### Brecha relativa por país
-
-Mapa coroplético que representa la brecha de género relativa en empleo HRST para cada país europeo.
-
-Facilita detectar patrones geográficos y diferencias territoriales.
-
----
-
-### Países con mayor y menor brecha
-
-Ranking de países que muestra los extremos en la distribución de la brecha de género relativa.
-
-Permite comparar rápidamente qué países presentan mayor desigualdad relativa.
-
----
-
-### Desempleo HRST por edad
-
-Gráfico de barras que muestra la distribución del desempleo en HRST por grupos de edad.
-
-Introduce una dimensión demográfica que complementa el análisis de género.
-
----
-
-# Interactividad
-
-El dashboard incluye varios elementos interactivos que permiten explorar el dataset de forma dinámica.
-
+## Interactividad (cómo explorar)
 ### Filtros
+- **Año**
+- **País**
 
-- Año
-- País
-
-### Interacciones entre visualizaciones
-
-- Selección en el mapa filtra el ranking de países
-- Selección en el mapa actualiza el resto de visualizaciones
-
-Esto permite analizar patrones específicos dentro de cada país o periodo temporal.
+### Interacciones
+- Selección en el **mapa** filtra el ranking y actualiza el resto de visualizaciones.
+- Permite analizar patrones específicos por país y periodo temporal.
 
 ---
 
-# Fuentes de datos
-
-Los datos proceden de **Eurostat**, utilizando tres datasets principales:
-
-- `hrst_st_nsecsex2`  
-Empleo en ciencia y tecnología por categoría HRST, actividad económica y sexo.
-
-- `hrst_st_nunesex`  
-Personas desempleadas en ciencia y tecnología por categoría y sexo.
-
-- `hrst_st_nuneage`  
-Personas desempleadas en ciencia y tecnología por categoría y grupo de edad.
-
-Los datos se descargaron en formato **TSV**.
+## Visualizaciones incluidas
+- **Evolución HRST por sexo:** series temporales para detectar convergencias/divergencias.
+- **Mapa de brecha relativa por país:** lectura territorial rápida.
+- **Ranking Top/Bottom:** identifica extremos en desigualdad relativa.
+- **Desempleo HRST por edad:** dimensión demográfica complementaria.
 
 ---
 
-# Preparación y transformación de datos
+## Fuentes de datos (Eurostat)
+Datasets utilizados (TSV):
+- `hrst_st_nsecsex2` — Empleo en ciencia y tecnología por categoría HRST, actividad económica y sexo  
+- `hrst_st_nunesex` — Personas desempleadas en ciencia y tecnología por categoría y sexo  
+- `hrst_st_nuneage` — Personas desempleadas en ciencia y tecnología por categoría y grupo de edad
 
-Durante el proceso de preparación se realizaron varias tareas:
+---
 
+## Preparación y transformación de datos
+Tareas realizadas:
 - limpieza de valores nulos
 - normalización de tipos de dato
 - creación de campos calculados
@@ -197,68 +105,47 @@ Durante el proceso de preparación se realizaron varias tareas:
 - preparación de variables para visualización
 
 Campos calculados principales:
-
 - porcentaje de mujeres
 - brecha de género relativa
 - número de países con dato
 - filtro de países válidos
-- Top/Bottom 10 de brecha de género
+- Top/Bottom 10 por brecha relativa
 
 ---
 
-# Tecnologías utilizadas
+## Limitaciones
+- Datos **agregados por país**: no capturan diferencias por sector/ocupación/empresa dentro de cada país.
+- La disponibilidad y cobertura puede variar por **país/año**, lo que afecta comparaciones.
+- La interpretación debe acompañarse de contexto (políticas, estructura productiva, educación).
 
+---
+
+## Tecnologías utilizadas
 - Tableau Desktop Public Edition
 - Eurostat datasets
-- Git
-- GitHub
+- Git / GitHub
 
 ---
 
-# Estructura del repositorio
+## Estructura del repositorio
 
-Proyecto-4
-│
+Proyecto-4/
+
 ├── README.md
-│
-├── assets
-│   ├── chunga-malaje-consulting.png
-│   └── dashboard-preview.png
-│
-├── data
-│   ├── estat_hrst_st_nsecsex2.tsv
-│   ├── estat_hrst_st_nunesex.tsv
-│   └── estat_hrst_st_nuneage.tsv
-│
+
+├── assets/
+
+│ ├── chunga-malaje-consulting.png
+
+│ └── dashboard-preview.png
+
+├── data/
+
+│ ├── estat_hrst_st_nsecsex2.tsv
+
+│ ├── estat_hrst_st_nunesex.tsv
+
+│ └── estat_hrst_st_nuneage.tsv
+
 └── Brecha_genero_HRST_Europa_Marina_Ruth.twbx
 
-
-
----
-
-# Equipo del proyecto
-
-Consultoras de datos especializadas en análisis de desigualdades estructurales y visualización de datos.
-
-<p align="center">
-  <img src="assets/Chunga_malaje_2-removebg-preview.png" width="450">
-</p>
-
-
-**Marina Martín Díaz**  
-Data Analyst  
-
-**Ruth Pérez Segovia**  
-Data Analyst  
-
-
-
----
-
-# Conclusión
-
-El análisis muestra que, aunque la participación femenina en el empleo HRST ha aumentado en Europa, persisten diferencias significativas entre países.
-
-El dashboard permite explorar estas diferencias desde múltiples perspectivas, combinando análisis temporal, territorial y demográfico.
-
-Este enfoque facilita la identificación de patrones estructurales en la brecha de género dentro de los sectores científicos y tecnológicos.
