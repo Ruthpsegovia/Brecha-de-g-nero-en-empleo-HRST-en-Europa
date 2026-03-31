@@ -12,7 +12,9 @@
 ## Resumen ejecutivo (para qué sirve)
 **Pregunta:** ¿Cómo varía la brecha de género en empleo HRST (Human Resources in Science and Technology) entre países y a lo largo del tiempo en Europa?
 
-**Objetivo:** identificar patrones territoriales, temporales y demográficos para **priorizar intervenciones** (políticas públicas, programas STEM/HRST, iniciativas de empleabilidad) basadas en evidencia.
+**Objetivo:** identificar patrones territoriales, temporales y demográficos para priorizar intervenciones (políticas públicas y programas STEM/HRST) basadas en evidencia.
+
+**Aplicación (empleabilidad e innovación social):** útil para orientar acciones de atracción, retención y progresión de talento (especialmente femenino) en itinerarios STEM/HRST y programas de empleabilidad.
 
 **Datos:** Eurostat (indicadores HRST) + preparación y modelado para visualización.
 
@@ -59,12 +61,12 @@ El panel superior resume la situación con:
 ---
 
 ## Key insights (orientados a decisión)
-> Nota: los siguientes insights se expresan en términos cualitativos para no “forzar” cifras fuera del dashboard. Puedes completarlos con 1–2 ejemplos concretos por país si quieres reforzar la narrativa.
+*Insights cualitativos basados en el dashboard; pueden ampliarse con ejemplos por país.*
 
-- **Equilibrio agregado ≈ 50%**, pero con **variabilidad significativa por país** → priorizar acciones por contexto nacional/territorial.  
-- **Desigualdad territorial persistente** → apunta a factores estructurales (políticas educativas, mercado laboral, cultura tecnológica) → útil para identificar “casos referencia” y “zonas prioritarias”.  
-- **La mejora absoluta no implica cierre automático de brecha** → el crecimiento HRST no garantiza equidad → necesidad de medidas específicas de atracción, retención y progresión.  
-- **Diferencias por edad en desempleo HRST** → posible “punto de fuga” por etapa de carrera → diseñar acciones segmentadas (entrada, consolidación, seniority).
+- **Equilibrio agregado ≈ 50%**, pero con variabilidad por país → priorizar acciones por contexto nacional/territorial.
+- **Desigualdad territorial persistente** → sugiere factores estructurales → útil para identificar “países referencia” y zonas prioritarias.
+- **La mejora absoluta no implica cierre automático de brecha** → diseñar medidas específicas de atracción/retención/progresión.
+- **Diferencias por edad en desempleo HRST** → diseñar acciones segmentadas por etapa de carrera.
 
 ---
 
@@ -114,9 +116,9 @@ Campos calculados principales:
 ---
 
 ## Limitaciones
-- Datos **agregados por país**: no capturan diferencias por sector/ocupación/empresa dentro de cada país.
-- La disponibilidad y cobertura puede variar por **país/año**, lo que afecta comparaciones.
-- La interpretación debe acompañarse de contexto (políticas, estructura productiva, educación).
+- Datos agregados por país: no capturan diferencias por sector/ocupación/empresa dentro de cada país.
+- La disponibilidad y cobertura puede variar por país/año.
+- Requiere contexto adicional (políticas educativas, estructura productiva) para interpretar causas.
 
 ---
 
@@ -128,24 +130,15 @@ Campos calculados principales:
 ---
 
 ## Estructura del repositorio
-
+```text
 Proyecto-4/
-
 ├── README.md
-
 ├── assets/
-
-│ ├── chunga-malaje-consulting.png
-
-│ └── dashboard-preview.png
-
+│   ├── chunga-malaje-consulting.png
+│   └── dashboard-preview.png
 ├── data/
-
-│ ├── estat_hrst_st_nsecsex2.tsv
-
-│ ├── estat_hrst_st_nunesex.tsv
-
-│ └── estat_hrst_st_nuneage.tsv
-
+│   ├── estat_hrst_st_nsecsex2.tsv
+│   ├── estat_hrst_st_nsecsex2.tsv
+│   ├── estat_hrst_st_nunesex.tsv
+│   └── estat_hrst_st_nuneage.tsv
 └── Brecha_genero_HRST_Europa_Marina_Ruth.twbx
-
