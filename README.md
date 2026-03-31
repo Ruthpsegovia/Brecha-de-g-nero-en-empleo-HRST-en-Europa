@@ -9,10 +9,18 @@
 ![EDA](https://img.shields.io/badge/Analysis-EDA-purple)
 ![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-blueviolet)
 
-Proyecto de análisis y visualización de datos desarrollado en **Tableau** a partir de datos públicos de **Eurostat** para estudiar la **brecha de género en el empleo en ciencia y tecnología (HRST)** en Europa.
+**Pregunta**: ¿Cómo varía la brecha de género en empleo HRST entre países y a lo largo del tiempo en Europa?
 
-Evaluación final del **Módulo 4 – Data Visualization**  
-Bootcamp Data Analytics — **Adalab**
+**Objetivo**: visualizar patrones territoriales y temporales para priorizar intervenciones y políticas de impulso STEM/HRST.
+
+**Datos**: Eurostat (indicadores HRST) + preparación y análisis para visualización.
+
+**Entregable**: dashboard interactivo en Tableau Public.
+
+**Uso**: comparar países, detectar tendencias y apoyar decisiones basadas en evidencia.
+
+**Ver dashboard** (Tableau Public):
+https://public.tableau.com/views/Brecha_genero_HRST_Europa_Marina-Ruth/BrechadegneroenempleoHRSTenEuropa
 
 ## Autoras  
 *por la igualdad de género y el cierre de la brecha digital*
