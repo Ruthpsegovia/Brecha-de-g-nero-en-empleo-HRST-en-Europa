@@ -138,7 +138,6 @@ Proyecto-4/
 │   └── dashboard-preview.png
 ├── data/
 │   ├── estat_hrst_st_nsecsex2.tsv
-│   ├── estat_hrst_st_nsecsex2.tsv
 │   ├── estat_hrst_st_nunesex.tsv
 │   └── estat_hrst_st_nuneage.tsv
 └── Brecha_genero_HRST_Europa_Marina_Ruth.twbx
